@@ -1,6 +1,5 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.alarm;
 
         import android.content.Context;
         import android.media.Ringtone;
@@ -11,8 +10,6 @@ package com.example.boles.cs313f16p4;
 
 /**
  * An implementation of the Alarm.
- *  *
- * @author laufer
  */
 
 public class DefaultIAlarm implements iAlarmModel {

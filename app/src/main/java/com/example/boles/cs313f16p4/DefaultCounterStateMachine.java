@@ -1,6 +1,5 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.state;
 
         import android.os.Bundle;
 
@@ -11,14 +10,13 @@ package com.example.boles.cs313f16p4;
 
 /**
  * An implementation of the state machine for the counter.
- *
- * @author laufer
+
  */
 public class DefaultCounterStateMachine implements StateMachine, CounterSMStateView {
     /**
      * Max value for the counter
      */
-    private /* static*/ final int MAXCOUNTER=99; // static is disabled in this task. oO
+    private final int MAXCOUNTER=99; // static is disabled in this task. oO
     /**
      * The counter. It keeps the number of secoconds
      */

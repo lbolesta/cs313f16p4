@@ -6,9 +6,6 @@ package com.example.boles.cs313f16p4;
 
         import android.R;
 
-/**
- * @author laufer
- */
 public class CounterSoppedStateTest extends TestCase {
 
     private CounterSoppedState state;

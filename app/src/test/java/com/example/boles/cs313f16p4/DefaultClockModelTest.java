@@ -1,14 +1,11 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.clock;
 
         import junit.framework.TestCase;
 
         import static java.lang.Thread.sleep;
 
-/**
- * @author laufer
- */
+
 public class DefaultClockModelTest extends TestCase {
 
     private DefaultClockModel clock;

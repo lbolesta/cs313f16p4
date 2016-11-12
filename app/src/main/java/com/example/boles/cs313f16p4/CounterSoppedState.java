@@ -2,10 +2,10 @@ package com.example.boles.cs313f16p4;
 
 
 
-import android.R;
+    import android.R;
 
 /**
- * @author laufer
+
  */
 
 public class CounterSoppedState implements State {

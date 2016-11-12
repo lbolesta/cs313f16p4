@@ -1,17 +1,15 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.counter;
 
 /**
  * The passive data model of the counter.
  * It does not emit any events.
  *
- * @author laufer
  */
 
 public interface CounterModel {
     /**
-     * Donstructors
+     * constructors
      */
     void resetCounter();
     void resetCounter(int counter);

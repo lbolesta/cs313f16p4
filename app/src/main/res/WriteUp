@@ -1,0 +1,34 @@
+Similarites between the model and code:
+To start, the code is obviously much more involved, but when you look at the model vs. the code,
+you are able to point out where each event in the on the model is happening.
+After carefully analyzing the code vs. the model, I don't think there's anything I would change.
+The model gives a simplified outline of what to code is expected to do.
+I would definitely recommend doing the model first then follwing that for coding. Just writing
+without realizing what needs to happen at each event can very easily get overwhelming. The model
+nicely lays out what needs to be done.
+
+Group Experience:
+We have worked together in the past, in this class and one other, so it made the pair work easy to
+coordinate. We first started out with the state diagram and decided from there what had to be coded.
+In order to keep things from getting confusing, we had discussions about who would do what.
+When things needed to be changed, they were usually communicated by text message and changed. We
+unfortunately had some issues with git while we were working on the project. Because of this, a lot
+of times when changes were made the file or files were sent by email to the other partner to be
+reviewed. This did make it harder to change some things, sometimes the .XML files wouldn’t
+cooperate and certain classes and libraries weren’t being recognized. Eventually, all of this
+got sorted out and we got the issues with git sorted out.
+
+When working alone, it is your job to figure out what needs to be tested and what tests need to be
+written. The good thing about working with a partner is a sounding board. They may develop one part
+then you may say this needs to be tested. When working by yourself, TDD is a bit harder because
+that’s not the most logical way of thinking, usually you’re just thinking about getting the code
+written.
+
+We found the most difficulty in finding time to plan what we needed to do, since we were operating
+on opposite schedules. Coding is easy to de asynchronously, but brainstorming ideas is a difficult
+matter when that isn’t able to be done in person. We were able to manage our way through this via
+email and text message.
+
+Overall, we have found that we work well as a team through this project and others we have
+collaborated on. We know that we can communicate well and find a way to get the work done even
+though we may work on quite different schedules.

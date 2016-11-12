@@ -13,7 +13,6 @@ import com.example.boles.cs313f16p4.StateMachine;
 /**
  * An implementation of the model facade.
  *
- * @author laufer
  */
 
 public class CounterModelFasade implements ModelFacade {
@@ -31,17 +30,20 @@ public class CounterModelFasade implements ModelFacade {
     }
 
 
+    /*counter start*/
     @Override
     public void onStart() {
         stateMachine.actionInit();
     }
 
+    /*to original*/
     @Override
     public void RestoreModelData(Bundle res) {
         stateMachine.RestoreModelData(res);
 
     }
 
+    /*get state*/
     @Override
     public void GetModelData(Bundle res) {
         stateMachine.GetModelData(res);

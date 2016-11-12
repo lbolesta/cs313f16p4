@@ -1,6 +1,5 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.counter;
 
 /**
  * An implementation of the counter data model.
@@ -8,7 +7,7 @@ package com.example.boles.cs313f16p4;
 
 public class DefaultCounterModel implements CounterModel {
 
-    private /* static */ int MAXCOUNTER=99; //  // it should be static, but statim members are disabled in this task.
+    private int MAXCOUNTER=99; //  // it should be static, but statim members are disabled in this task.
 
     private int counter = 0;
 

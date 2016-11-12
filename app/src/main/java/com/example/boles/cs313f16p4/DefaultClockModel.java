@@ -8,12 +8,9 @@ package com.example.boles.cs313f16p4;
 /**
  * An implementation of the internal clock.
  *
- * @author laufer
  */
 public class DefaultClockModel implements ClockModel {
 
-    // TODO make accurate by keeping track of partial seconds when canceled etc.
-    // Done. Timer restarts every time the waiting period starts.
 
     private Timer timer;
 

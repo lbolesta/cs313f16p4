@@ -1,12 +1,9 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.state;
 
 /**
  * The restricted view states have of their surrounding state machine.
  * This is a client-specific interface in Peter Coad's terminology.
- *
- * @author laufer
  */
 
 public interface CounterSMStateView {

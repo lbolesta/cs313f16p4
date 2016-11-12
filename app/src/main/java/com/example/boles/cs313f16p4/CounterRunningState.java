@@ -1,12 +1,11 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.state;
 
 
 import android.R;
 
 /**
- * @author laufer
+
  */
 public class CounterRunningState implements State {
 

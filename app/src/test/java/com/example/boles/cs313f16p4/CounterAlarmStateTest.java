@@ -4,9 +4,6 @@ package com.example.boles.cs313f16p4;
 
         import android.R;
 
-/**
- * @author laufer
- */
 public class CounterAlarmStateTest extends TestCase {
     private CounterAlarmState alarmState;
     private boolean updateUIRuntimeCalled;

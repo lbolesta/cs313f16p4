@@ -1,6 +1,5 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.android;
 
         import android.annotation.SuppressLint;
         import android.app.Activity;
@@ -14,7 +13,6 @@ package com.example.boles.cs313f16p4;
         import android.widget.EditText;
         import android.widget.TextView;
         import android.R;
-        //import com.example.boles.cs313f16p4.R;
         import com.example.boles.cs313f16p4.UIListener;
         import com.example.boles.cs313f16p4.CounterModelFasade;
         import com.example.boles.cs313f16p4.ModelFacade;
@@ -22,9 +20,9 @@ package com.example.boles.cs313f16p4;
         import com.example.boles.cs313f16p4.iAlarmModel;
 
 /**
- * A thin adapter component for the csimple counter.
+ * A thin adapter component for the counter
  *
- * @author laufer
+ *
  */
 public class Adapter extends Activity implements UIUpdateListener {
 
@@ -103,7 +101,7 @@ public class Adapter extends Activity implements UIUpdateListener {
 //                ToneGenerator toneGen1 = new ToneGenerator(AudioManager.STREAM_MUSIC, 100);
 //                toneGen1.startTone(ToneGenerator.TONE_PROP_BEEP,150);
 
-                Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+                Uri_notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
                 Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
                 r.play();
             } catch (Exception e) {

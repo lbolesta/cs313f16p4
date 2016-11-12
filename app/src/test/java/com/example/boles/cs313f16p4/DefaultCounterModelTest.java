@@ -1,12 +1,9 @@
 package com.example.boles.cs313f16p4;
 
-//package edu.luc.etl.cs313.android.simplecounter.model.counter;
 
         import junit.framework.TestCase;
 
-/**
- * @author laufer
- */
+
 public class DefaultCounterModelTest extends TestCase {
     private static int DEFAULTCAOUNTER=5;
     DefaultCounterModel counter;
