@@ -13,7 +13,8 @@ package com.example.boles.cs313f16p4;
         import android.view.View;
         import android.widget.EditText;
         import android.widget.TextView;
-        import com.example.boles.cs313f16p4.R;
+        import android.R;
+        //import com.example.boles.cs313f16p4.R;
         import com.example.boles.cs313f16p4.UIListener;
         import com.example.boles.cs313f16p4.CounterModelFasade;
         import com.example.boles.cs313f16p4.ModelFacade;
@@ -96,7 +97,7 @@ public class Adapter extends Activity implements UIUpdateListener {
 
     @Override
     public void Beep() {
-        runOnUiThread(){
+        runOnUiThread(() -> {
             try {
 //// send the tone to the "alarm" stream (classic beeps go there) with 50% volume
 //                ToneGenerator toneGen1 = new ToneGenerator(AudioManager.STREAM_MUSIC, 100);
@@ -108,7 +109,7 @@ public class Adapter extends Activity implements UIUpdateListener {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }
+        });
 
     }
 

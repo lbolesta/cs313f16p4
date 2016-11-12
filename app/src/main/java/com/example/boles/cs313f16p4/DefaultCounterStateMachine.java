@@ -4,7 +4,7 @@ package com.example.boles.cs313f16p4;
 
         import android.os.Bundle;
 
-        import com.example.boles.cs313f16p4.R;
+        import android.R;
         import com.example.boles.cs313f16p4.UIUpdateListener;
         import com.example.boles.cs313f16p4.ClockModel;
         import com.example.boles.cs313f16p4.CounterModel;
